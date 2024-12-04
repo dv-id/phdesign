@@ -14,7 +14,7 @@ function sendEmail() {
         fullname: document.getElementById("fullname").value,
         to: "philip.hruby777@gmail.com",
         replyto: document.getElementById("email").value,
-        message: `new order! 8) jméno: ${name} si objednal: ${producttext} email: ${email}`
+        message: `new order! 8)! \n jméno: ${name} si objednal: ${producttext} \n email: ${email}`
     };
 
     let serviceID = "service_15c72dl"
@@ -35,7 +35,7 @@ function sendEmail() {
 
 
 var typed = new Typed('#introduction', {
-    strings: ['na této stránce máte možnost si objednat nějaké z mojich děl, klikněte na tlačítko <strong>{objednat}</strong> pod dílem, vyplňte údaje a ja se Vám ozvu co nejdříve to půjde. Snad Vám něco padne do oka 8)'],
+    strings: ['na této stránce máte možnost si objednat nějaké z mojich děl, klikněte na tlačítko <strong>[Mám zájem!]</strong> pod dílem, vyplňte údaje klikněte na <strong>[Objednat]</strong> a ja se Vám ozvu co nejdříve to půjde. Snad Vám něco padne do oka 8)'],
     typeSpeed: 10,
     showCursor: false
   });
