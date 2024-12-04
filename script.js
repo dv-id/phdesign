@@ -14,7 +14,7 @@ function sendEmail() {
         fullname: document.getElementById("fullname").value,
         to: "philip.hruby777@gmail.com",
         replyto: document.getElementById("email").value,
-        message: `new order! 8)! \n jméno: ${name} si objednal: ${producttext} \n email: ${email}`
+        message: `new order! 8)! \n jméno: ${name} \n si objednal: ${producttext} \n email: ${email}`
     };
 
     let serviceID = "service_15c72dl"
